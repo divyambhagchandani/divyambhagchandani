@@ -1,0 +1,201 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+.hdivyam{
+	font-size: 200%;
+	font-family:'Dancing Script', cursive;
+	color: black;
+}
+.ref{
+	color: black; 
+}
+.cola{
+	background-color: rgba(0,0,0,0);
+}
+.image1{
+	background: linear-gradient(#fff,#008080);
+	min-height: 100%;
+	min-width: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.con1 {
+	float: right;
+}
+.port {
+	height: 100%;
+	width: 100%;
+
+}
+.name{
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 17%;
+	margin-left:30%; 
+	margin-bottom: 27%;
+	font-size: 80px;
+	padding: 10px;
+	border: solid 1px;
+	box-sizing: border-box;
+	opacity: 0;
+	animation: aao 1s cubic-bezier(0.13,-0.08, 0.68, 0.1);
+	-webkit-animation-fill-mode:forwards;
+}
+.down{
+	position: absolute;
+	bottom: 5%;
+	left: 47%;
+	color: white;
+	-webkit-animation: up 1s alternate infinite;
+}
+.down:active{
+	color: white;
+}
+
+.section1{
+	min-height: 1000%
+	min-width:1000%;
+}
+@-webkit-keyframes up{
+	0% { position: absolute; 
+	bottom: 5%;
+	left: 47%;
+	}
+	100% { position: absolute;
+		bottom: 10%;}
+}
+@-webkit-keyframes aao{
+from{
+	opacity: 0;
+}
+to{
+	opacity: 1;
+}
+}
+.section2{
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+}
+.ipro{
+	height: 400px;
+	width: 640px;
+	display: block;
+}
+.section3 {
+
+}
+#abo1{
+	font-size: 3.5em;
+	font-weight: lighter;
+	min-width: 100%;
+	display: block;
+
+	padding-top: 2%;
+
+
+}
+#myphoto{
+	border-radius: 100% ;
+	height: 25%;
+	width: 25%;
+	float: right;
+
+
+}
+
+#edu{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.achi{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+.achi ul li{
+	padding:2px;
+}
+p{
+	background-color: linear-gradient()
+}
+.section3{
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+}
+#cont{
+padding-left: 0;
+padding-right: 0;
+
+}
+#skill{
+	font-size: 3.5em;
+	font-weight: lighter;
+	min-width: 100%;
+	display: block;
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	margin:0;
+	box-sizing: border-box;
+}
+.col2{
+background-color: #008080;
+color: white;
+
+}
+
+.social{
+padding:0;
+}
+#realskill{
+	background-color: #4d5258;
+	color: white;
+	padding-right: 4%;
+
+
+}
+#cme{
+	text-align: center;
+	font-size: 2.9em;
+	font-weight: 300;
+	background-color: #eee;
+	padding: 2% 2% 3% 2%;
+
+}
+#realskill li{
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.contact{
+background-color: #4e5359;
+height: 826px;
+}
+.social{
+	color: black;
+	text-align: center;
+
+}
+.fa-awe{
+	color: #404040;
+}
+.fa-awe:hover{
+	color: grey;
+}
+.form{
+	text-align: left;
+}
+.form-group{
+	padding-left: 2%;
+	padding-right: 3%;
+}
